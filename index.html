@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    
+
+
+    <!-- Navbar Start -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/pina.png" alt="Logo" style="height: 50px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About Us</a>
+                <a href="#pongamia" class="nav-item nav-link">Pongamia</a>
+                <a href="#benefits" class="nav-item nav-link">Benefits</a>
+            </div>
+            <a href="#contact" class="btn btn-contact py-4 px-lg-4 rounded-0 d-none d-lg-block">Contact<i class="fa fa-arrow-right ms-3"></i></a>
+
+        </div>
+    </nav> -->
+
+    <nav id="custom-navbar">
+        <div class="container">
+            <a href="#home" class="brand">
+                <img src="image/lifestyle-okay.png" alt="Logo" id="navbar-logo" style="height: 70px;">
+            </a>
+
+            <div id="navbar-toggler" class="menu-toggle">
+                <span>&#9776;</span> <!-- Ikon hamburger -->
+            </div>
+           
+            <div class="menu">
+                <a href="#home" class="nav-link active">Halaman Utama</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#Inovasi" class="nav-link">Kesehatan dan Kebugaran</a>
+                <a href="#benefits" class="nav-link">Keuntungan</a>
+                <a href="#contact" class="nav-link contact-btn">Kontak</a>
+            </div>
+        </div>
+    </nav>
+    
+
+
+
+
+    <!-- <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s" id="home">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+            
+                   
+                    <video class="w-100" autoplay loop muted>
+                        <source src="video/header.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="display-1 text-white mb-2 animated slideInDown">INVEST IN NATURE</h3>
+                                    <h5 class="text-white mb-2">Toward a sustainable world where humanity and nature thrive in harmony</h5>
+                                    <h5 class="text-white mb-2">Learn More About Us</h5>
+                                    <a href="#about" class="btn btn-transparent rounded-circle p-0 mt-4" style="border: none;">
+                                        <div style="border-radius: 50%; border: 2px solid white; padding: 10px; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center;">
+                                            <i class="fa fa-arrow-down" style="color: white; font-size: 24px;"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+     -->
+     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s" style="height: 100vh; position: relative;" id="home">
+        <video class="w-100" autoplay loop muted style="position: absolute; top: 0; left: 0; z-index: -1; height: 100%; width: 100%; object-fit: cover;">
+            <source src="video/lifestyle.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="jumbotron jumbotron-fluid mb-0" style="background: rgba(0, 0, 0, 0.5); height: 100%;">
+            <div class="container text-center h-100 d-flex align-items-center justify-content-center">
+                <div>
+                    <h2 class="display-2 text-white animated slideInDown">Hidup Cerdas, Pilihan Bijak</h2>
+                    
+                    <h5 class="text-white">Pelajari Lebih Lanjut Tentang Kami</h5>
+                    <a href="#about" class="btn btn-transparent rounded-circle p-0 mt-4" style="border: none;">
+                        <div style="border-radius: 50%; border: 2px solid white; padding: 10px; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center;">
+                            <i class="fa fa-arrow-down" style="color: white; font-size: 24px;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about">
+        <div class="container">
+            <div class="row g-5 align-items-end">
+                <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="custom-img1" data-wow-delay="0.1s" src="image/gaya hidup.jpg">
+                </div>
+                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                   
+                    <h1 class="display-5 mb-4">Tentang Kami </h1>
+                    <p >Kami adalah komunitas yang didedikasikan untuk merayakan gaya hidup yang positif, kreatif, dan penuh inspirasi. Di sini, kami percaya bahwa setiap hari adalah kesempatan untuk mengeksplorasi hal-hal baru, menemukan kebahagiaan dalam aktivitas sehari-hari, dan berbagi pengalaman yang memotivasi. <p></p>
+
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="image/luxury.jpg">
+        <div class="container text-center py-5">
+            <div class="row g-5">
+                
+                    <span class="fs-5 fw-semi-bold text-light">“The greatest glory in living lies not in never falling, but in rising every time we fall."<p></p></span>
+                    <span class="fs-5 text-light">Nelson Mandela</span>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Projects Start -->
+    <div class="container-xxl py-5" id="Inovasi">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6 mb-4">Kesehatan dan Kebugaran</h1>
+                <p></p>
+            </div>
+
+            <!-- Carousel Start -->
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/kebugaran.webp" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/olah.jpg" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 portfolio-item wow fadeInUp">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/senam2.jpg" alt="">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/ramen.webp" alt="">
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/cesar.webp" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 ">
+                                <div class="portfolio-inner rounded">
+                                    <img class="img-fluid" src="image/heart.webp" alt="">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel End -->
+        </div>
+    </div>
+  
+    
+    
+    
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <!-- Kolom Kiri: Teks -->
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-7 mb-4">Sejarah LifeStyle</h1>
+                    <p>
+                        Sejarah lifestyle mencakup evolusi cara hidup manusia sepanjang waktu, yang dipengaruhi oleh berbagai faktor seperti budaya, ekonomi, teknologi, dan lingkungan. 
+                    </p>
+                    <p>Setiap periode dalam sejarah telah memberikan kontribusi pada cara hidup manusia saat ini, menciptakan keragaman dalam gaya hidup di berbagai belahan dunia.</p>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded custom-img" data-wow-delay="0.1s" src="image/familly.jpg">
+                </div>
+
+    
+             
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-xxl py-5" style="background: linear-gradient(to right, transparent, rgba(180, 223, 179, 0) 50%, rgba(180, 223, 179, 0.1) 70%, rgba(180, 223, 179, 0.2) 90%);">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="display-6 mb-4">Super Tree</h1>
+                    <img class="img-fluid rounded custom-img" data-wow-delay="0.1s" src="img/tree/New-tree.png">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    
+
+    
+
+   
+
+    <div class="container-fluid p-0 wow fadeIn text-center" data-wow-delay="0.1s" id="benefits">
+       
+            
+                
+                   
+                    <img class="img-fluid" src="image/life.png" alt="Image">
+                    
+                
+           
+        
+    </div>
+    
+
+    <div class="container-xxl py-5">
+        <div class="container"> 
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6 mb-4">Manfaat</h1>
+            
+        </div>
+        <p></p>
+
+            <div class="row g-5 align-items-end">
+              
+                <div class="col-lg-6 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded custom-img" data-wow-delay="0.1s" src="image/meditasi.jpg">
+                </div>
+                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                   
+                    <h1 class="display-5 mb-4">Kesehatan Fisik</h1>
+                    <p class="mb-4">Pola makan yang seimbang dan olahraga teratur membantu menjaga berat badan ideal, meningkatkan kekuatan otot, dan meningkatkan daya tahan tubuh.</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+           
+        
+            <div class="row g-5 align-items-end">
+                
+                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                   
+                    <h1 class="display-5 mb-4">Kesehatan Mental</h1>
+                    <p class="mb-4">Aktivitas fisik dan pola makan yang baik dapat mengurangi stres, kecemasan, dan depresi. Olahraga juga merangsang pelepasan endorfin, yang dapat meningkatkan suasana hati.</p>
+                    
+                </div>
+                <div class="col-lg-6 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded custom-img" data-wow-delay="0.1s" src="image/stress.webp">
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-end">
+                <div class="col-lg-6 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded custom-img" data-wow-delay="0.1s" src="image/kumpul.webp">
+                </div>
+                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
+                   
+                    <h1 class="display-5 mb-4">Hubungan Sosial yang Lebih Baik</h1>
+                    <p class="mb-4">Menjalani gaya hidup sehat, seperti berolahraga bersama teman atau bergabung dalam kelompok kesehatan, dapat memperkuat hubungan sosial dan menciptakan dukungan emosional.</p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+
+     
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center  mb-3 mb-md-0">
+                    <a class="border-bottom" href="#">@</a> Copyright  2024 All Right Reserved.
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+            // Ketika link di navbar di-klik
+            $('.menu a').on('click', function() {
+                // Hapus kelas 'active' dari semua item navbar
+                $('.menu a').removeClass('active');
+                
+                // Tambahkan kelas 'active' pada item yang diklik
+                $(this).addClass('active');
+            });
+        });
+        
+        window.onscroll = function() {
+            var navbar = document.getElementById("custom-navbar");
+            const logo = document.getElementById('navbar-logo');
+            if (window.pageYOffset > 50) { // Jika scroll lebih dari 50px
+                navbar.classList.add("scrolled");
+                logo.src = 'image/lifestyle-okay.png';
+            } else {
+                navbar.classList.remove("scrolled");
+                logo.src = 'image/lifestyle-okay.png';
+            }
+        };
+
+       
+       
+        document.getElementById('navbar-toggler').addEventListener('click', function() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active'); // Toggle class active pada menu
+        });
+        
+       
+        
+    </script>
+  
+    
+    
+</body>
+
+</html>
